@@ -1,0 +1,138 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "esg": "https://www.sustaira.com/vocab/esg#",
+    "ghg": "https://www.ghgprotocol.org/vocab#",
+    "csrd": "https://www.efrag.org/vocab/csrd#",
+
+    "Sustaira": {
+      "@id": "schema:Organization",
+      "@type": "@id"
+    },
+    "name": "schema:name",
+    "url": "schema:url",
+    "description": "schema:description",
+    "industry": "schema:industry",
+    "foundingDate": "schema:foundingDate",
+    "logo": "schema:logo",
+    "sameAs": "schema:sameAs",
+
+    "ESGPlatform": {
+      "@id": "schema:SoftwareApplication",
+      "@type": "@id"
+    },
+    "applicationCategory": "schema:applicationCategory",
+    "featureList": "schema:featureList",
+
+    "CarbonAccounting": {
+      "@id": "esg:CarbonAccounting",
+      "@type": "@id"
+    },
+    "scope1Emissions": {
+      "@id": "ghg:scope1",
+      "@type": "schema:QuantitativeValue"
+    },
+    "scope2Emissions": {
+      "@id": "ghg:scope2",
+      "@type": "schema:QuantitativeValue"
+    },
+    "scope3Emissions": {
+      "@id": "ghg:scope3",
+      "@type": "schema:QuantitativeValue"
+    },
+    "emissionsUnit": {
+      "@id": "schema:unitText"
+    },
+
+    "ESGDisclosure": {
+      "@id": "esg:ESGDisclosure",
+      "@type": "@id"
+    },
+    "reportingFramework": {
+      "@id": "esg:reportingFramework"
+    },
+    "disclosureStandard": {
+      "@id": "esg:disclosureStandard"
+    },
+    "reportingPeriod": {
+      "@id": "schema:temporalCoverage"
+    },
+
+    "SustainabilityKPI": {
+      "@id": "esg:SustainabilityKPI",
+      "@type": "@id"
+    },
+    "kpiName": "schema:name",
+    "kpiValue": "schema:value",
+    "kpiTarget": "esg:target",
+    "kpiUnit": "schema:unitText",
+    "kpiCategory": "esg:category",
+
+    "SupplyChainData": {
+      "@id": "esg:SupplyChainData",
+      "@type": "@id"
+    },
+    "supplier": {
+      "@id": "schema:supplier",
+      "@type": "@id"
+    },
+    "supplierData": "esg:supplierData",
+    "dataValidationStatus": "esg:validationStatus",
+
+    "SustainabilityProject": {
+      "@id": "esg:SustainabilityProject",
+      "@type": "@id"
+    },
+    "projectStatus": "schema:status",
+    "projectOwner": "schema:accountablePerson",
+    "projectStartDate": "schema:startDate",
+    "projectEndDate": "schema:endDate",
+
+    "IndustryApp": {
+      "@id": "esg:IndustryApp",
+      "@type": "@id"
+    },
+    "targetIndustry": "schema:industry",
+    "appVersion": "schema:softwareVersion",
+
+    "MendixIntegration": {
+      "@id": "esg:MendixIntegration",
+      "@type": "@id"
+    },
+    "integrationEndpoint": "schema:url",
+    "authType": "esg:authType",
+
+    "company": {
+      "@id": "schema:Organization",
+      "@type": "@id",
+      "@context": {
+        "name": "schema:name",
+        "url": {
+          "@id": "schema:url",
+          "@type": "@id"
+        },
+        "industry": "schema:industry",
+        "legalName": "schema:legalName",
+        "linkedIn": {
+          "@id": "schema:sameAs",
+          "@type": "@id"
+        }
+      }
+    }
+  },
+  "@graph": [
+    {
+      "@type": "schema:Organization",
+      "@id": "https://www.sustaira.com/",
+      "schema:name": "Sustaira",
+      "schema:url": "https://www.sustaira.com/",
+      "schema:description": "Modular, AI-powered sustainability and ESG application platform built on low-code Mendix architecture.",
+      "schema:industry": "Sustainability Software",
+      "schema:sameAs": [
+        "https://www.linkedin.com/company/sustaira/"
+      ],
+      "schema:applicationCategory": "ESG, Carbon Accounting, Sustainability Reporting"
+    }
+  ]
+}

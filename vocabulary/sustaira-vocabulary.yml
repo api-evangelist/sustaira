@@ -1,0 +1,183 @@
+vocabulary:
+  name: Sustaira ESG & Sustainability Vocabulary
+  description: >
+    Core terms covering sustainability, ESG, carbon accounting, disclosure
+    frameworks, and supply chain data management as used in the Sustaira
+    AI-powered ESG application platform built on Mendix low-code architecture.
+  version: "1.0"
+  terms:
+
+    - term: Carbon Accounting
+      definition: >
+        The systematic process of measuring, tracking, and reporting an
+        organization's greenhouse gas (GHG) emissions across Scope 1 (direct),
+        Scope 2 (indirect energy), and Scope 3 (value chain) categories in
+        accordance with the GHG Protocol.
+      tags:
+        - emissions
+        - GHG
+        - climate
+        - measurement
+
+    - term: Scope 1 Emissions
+      definition: >
+        Direct greenhouse gas emissions from sources owned or controlled by the
+        reporting organization, such as on-site combustion, company vehicles,
+        and industrial processes.
+      tags:
+        - emissions
+        - carbon-accounting
+        - GHG-Protocol
+
+    - term: Scope 2 Emissions
+      definition: >
+        Indirect greenhouse gas emissions associated with the purchase of
+        electricity, heat, steam, or cooling consumed by the reporting
+        organization.
+      tags:
+        - emissions
+        - carbon-accounting
+        - energy
+        - GHG-Protocol
+
+    - term: Scope 3 Emissions
+      definition: >
+        All other indirect greenhouse gas emissions that occur in a company's
+        value chain, including upstream supplier emissions and downstream
+        product use and disposal, covering 15 categories defined by the GHG
+        Protocol.
+      tags:
+        - emissions
+        - carbon-accounting
+        - supply-chain
+        - GHG-Protocol
+
+    - term: ESG Disclosure
+      definition: >
+        The formal reporting of Environmental, Social, and Governance (ESG)
+        data and performance to stakeholders, regulators, and investors,
+        aligned to frameworks such as CSRD, CDP, PCAF, or SASB.
+      tags:
+        - reporting
+        - disclosure
+        - compliance
+        - transparency
+
+    - term: CSRD
+      definition: >
+        Corporate Sustainability Reporting Directive — an EU regulation
+        requiring large companies and listed SMEs to report detailed
+        sustainability information under European Sustainability Reporting
+        Standards (ESRS), effective from 2024 onwards.
+      tags:
+        - regulation
+        - EU
+        - reporting
+        - compliance
+
+    - term: CDP
+      definition: >
+        Carbon Disclosure Project — a global non-profit that runs a disclosure
+        system enabling companies, cities, and regions to measure and manage
+        their environmental impacts across climate, water, and forests.
+      tags:
+        - disclosure
+        - climate
+        - reporting
+        - framework
+
+    - term: PCAF
+      definition: >
+        Partnership for Carbon Accounting Financials — an industry-led
+        initiative providing financial institutions with a standardized approach
+        to measure and disclose greenhouse gas emissions associated with loans
+        and investments (financed emissions).
+      tags:
+        - finance
+        - carbon-accounting
+        - disclosure
+        - banking
+
+    - term: SASB
+      definition: >
+        Sustainability Accounting Standards Board — sets industry-specific
+        sustainability disclosure standards that identify the minimal set of
+        financially material sustainability topics and their associated metrics
+        for 77 industries.
+      tags:
+        - standards
+        - disclosure
+        - industry-specific
+        - reporting
+
+    - term: Sustainability KPI
+      definition: >
+        A Key Performance Indicator measuring progress toward a sustainability
+        or ESG objective, such as emission reduction targets, renewable energy
+        percentage, water consumption, or waste diversion rates.
+      tags:
+        - performance
+        - measurement
+        - tracking
+        - goals
+
+    - term: Supply Chain Data Collection
+      definition: >
+        The process of distributing data request templates to suppliers and
+        stakeholders, collecting responses, and validating the accuracy and
+        completeness of sustainability-related data (e.g., Scope 3 Category 1
+        purchased goods emissions).
+      tags:
+        - supply-chain
+        - data-collection
+        - Scope-3
+        - validation
+
+    - term: Mendix Low-Code
+      definition: >
+        The underlying low-code application development platform (by Mendix,
+        a Siemens business) on which Sustaira builds and delivers its modular
+        ESG apps, enabling rapid customization and enterprise-grade deployment
+        without extensive hand-coding.
+      tags:
+        - platform
+        - low-code
+        - Mendix
+        - Siemens
+
+    - term: Sustainability Accelerator
+      definition: >
+        A pre-built, configurable app module available in the Sustaira
+        marketplace that addresses a specific sustainability use case (e.g.,
+        waste management, supplier surveys, energy tracking), reducing
+        implementation time for customers and consultants.
+      tags:
+        - marketplace
+        - app
+        - accelerator
+        - pre-built
+
+    - term: Industrial Decarbonization
+      definition: >
+        Strategies and operational changes that reduce or eliminate greenhouse
+        gas emissions from energy-intensive industrial sectors — including
+        manufacturing, construction, logistics, and chemicals — through
+        electrification, fuel switching, efficiency improvements, and carbon
+        capture.
+      tags:
+        - industry
+        - decarbonization
+        - manufacturing
+        - climate
+
+    - term: Enterprise ESG Program
+      definition: >
+        A unified, organization-wide initiative that integrates sustainability
+        data management, carbon accounting, KPI tracking, and regulatory
+        disclosure into a single governed platform, typically managed through
+        an enterprise software solution such as Sustaira.
+      tags:
+        - enterprise
+        - program-management
+        - governance
+        - ESG
