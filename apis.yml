@@ -106,6 +106,8 @@ apis:
       - type: PartnerGated
         description: Integration and API access provisioned through enterprise contracts and partner programs.
 common:
+  - type: DomainSecurity
+    url: security/sustaira-domain-security.yml
   - type: Website
     url: https://www.sustaira.com/
   - type: Platform
