@@ -1,4 +1,4 @@
-# sustaira
+# Sustaira
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,111 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Sustaira — ESG and sustainability application platform
+Sustaira is a modular, AI-powered sustainability and ESG application platform built on a low-code architecture in partnership with Mendix. Customers use Sustaira to run carbon accounting (Scope 1, 2, and 3), ESG disclosure and reporting aligned to CSRD, CDP, PCAF, and SASB, sustainability project and KPI tracking, supply chain data collection, and industry-specific sustainability workflows across construction, finance, logistics, healthcare, and other sectors. Integration into customer systems is handled through web services and APIs on the underlying Mendix platform, plus a marketplace of 150+ sustainability accelerators. Sustaira does not publish a public, self-service developer API portal; integration access is delivered through customer enterprise contracts and partner programs.
+
+**Areas:** ESG · Sustainability · Carbon Accounting · Low-Code · Mendix · Disclosure · CSRD · Supply Chain · KPIs · Application
+
+## Sustaira on APIs.io
+
+Everything profiled for Sustaira is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sustaira/](https://apis.io/providers/sustaira/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Sustaira Context](https://apis.io/jsonld/sustaira/sustaira-context/)
+
+#### Vocabulary (1)
+
+The provider's domain terms, defined.
+
+- [Sustaira ESG & Sustainability Vocabulary](https://apis.io/vocabularies/sustaira/sustaira-vocabulary/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Sustaira Domain Security](https://apis.io/security/sustaira/sustaira-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Sustaira Plans Pricing](https://apis.io/plans/sustaira/sustaira-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Sustaira Rate Limits](https://apis.io/rate-limits/sustaira/sustaira-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Sustaira Finops](https://apis.io/finops/sustaira/sustaira-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.sustaira.com/)
+- [Pricing](https://www.sustaira.com/pricing)
+- [Blog](https://www.sustaira.com/blog)
+
+## API Evangelist rating
+
+**Kin Score 12.3** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 49.1 |
+| Contract quality | 14.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 15.8 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sustaira/](https://apis.io/providers/sustaira/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Sustaira: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sustaira/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
